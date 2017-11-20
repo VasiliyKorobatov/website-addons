@@ -7,7 +7,7 @@
                     <t t-raw="o.proposal_id.head"/>
                 </t>
             </t>
-            <t t-call="report.html_container">
+            <t t-call="reporis_deliveryt.html_container">
                 <t t-foreach="docs" t-as="o">
                     <div class="header">
                         <t t-raw="o.proposal_id.page_header"/>
